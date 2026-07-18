@@ -1,0 +1,268 @@
+[
+  {
+    "name": "agents-assignment",
+    "description": "A powerful framework for building realtime voice AI agents \ud83e\udd16\ud83c\udf99\ufe0f\ud83d\udcf9 ",
+    "url": "https://github.com/rkpothamsetti/agents-assignment",
+    "languages": [
+      "Python",
+      "C++",
+      "CMake",
+      "C",
+      "Objective-C++",
+      "Makefile"
+    ],
+    "readme": "<!--BEGIN_BANNER_IMAGE-->\n\n<picture>\n  <source media=\"(prefers-color-scheme: dark)\" srcset=\"/.github/banner_dark.png\">\n  <source media=\"(prefers-color-scheme: light)\" srcset=\"/.github/banner_light.png\">\n  <img style=\"width:100%;\" alt=\"The LiveKit icon, the name of the repository and some sample code in the background.\" src=\"https://raw.githubusercontent.com/livekit/agents/main/.github/banner_light.png\">\n</picture>\n\n<!--END_BANNER_IMAGE-->\n<br />\n\n![PyPI - Version](https://img.shields.io/pypi/v/livekit-agents)\n[![PyPI Downloads](https://static.pepy.tech/badge/livekit-agents/month)](https://pepy.tech/projects/livekit-agents)\n[![Slack community](https://img.shields.io/endpoint?url=https%3A%2F%2Flivekit.io%2Fbadges%2Fslack)](https://livekit.io/join-slack)\n[![Twitter Follow](https://img.shields.io/twitter/follow/livekit)](https://twitter.com/livekit)\n[![Ask DeepWiki for understanding the codebase](https://deepwiki.com/badge.svg)](https://deepwiki.com/livekit/agents)\n[![License](https://img."
+  },
+  {
+    "name": "breast_cancer_dataset",
+    "description": null,
+    "url": "https://github.com/rkpothamsetti/breast_cancer_dataset",
+    "languages": [
+      "Jupyter Notebook"
+    ],
+    "readme": "\nBreast Cancer Prediction using Logistic Regression\n==================================================\n\nThis project demonstrates how to build and evaluate a logistic regression classifier on the Breast Cancer Wisconsin dataset.\n\n---------------------------\n1. Dataset Preparation\n---------------------------\n- Dataset columns include various statistical measurements of cell nuclei.\n- Target variable: `diagnosis`\n    - 'M' = Malignant (encoded as 1)\n    - 'B' = Benign (encoded as 0)\n- Irrelevant columns like `id` and `Unnamed: 32` are dropped.\n\n---------------------------\n2. Preprocessing Steps\n---------------------------\n- Features (X) and Target (y) are separated.\n- Dataset is split into 80% training and 20% testing using `train_test_split()`.\n- All features are standardized using `StandardScaler` for better model convergence.\n\n---------------------------\n3. Model Training\n---------------------------\n- A `LogisticRegression` model is trained on the standardized training data.\n- The mod"
+  },
+  {
+    "name": "CivicSage-AI",
+    "description": null,
+    "url": "https://github.com/rkpothamsetti/CivicSage-AI",
+    "languages": [
+      "JavaScript",
+      "CSS",
+      "HTML",
+      "Dockerfile"
+    ],
+    "readme": "# \ud83c\udfdb\ufe0f CivicSage AI \u2014 Indian Election Process Assistant\n\nAn AI-powered interactive assistant that helps citizens understand the Indian election process, timelines, and procedures in an engaging, conversational, and visually rich way.\n\n**Built for PromptWars Virtual \u2014 Challenge Two: Civic Education**\n\n\ud83c\udf10 **Live Demo:** [https://civicsage-ai-32834998077.us-central1.run.app](https://civicsage-ai-32834998077.us-central1.run.app)\n\n## \ud83c\udfaf Chosen Vertical\n\n**Civic Education** \u2014 Making the Indian electoral process accessible and understandable to every citizen through AI-powered interactive learning.\n\n## \ud83c\udfaf Problem Statement\n\nThe election process in India is complex, involving multiple phases, institutions, and legal frameworks. Many citizens, especially first-time voters, find it difficult to understand how elections work. **CivicSage AI** bridges this gap by providing an interactive, AI-driven platform that breaks down electoral procedures into digestible, conversational explanations.\n\n## \ud83d\udca1 Approa"
+  },
+  {
+    "name": "cold_email_generator",
+    "description": "when big companies like techmahindra,nike,tata release a job post  then some companies using cold emails send this companies this email that they will provide their workes and hand over the project from that company ",
+    "url": "https://github.com/rkpothamsetti/cold_email_generator",
+    "languages": [
+      "Jupyter Notebook",
+      "Python"
+    ],
+    "readme": "# \ud83e\udde0 Cold Email Generator using Llama 3.1\n\nAn end-to-end Gen AI application built to automate the cold email outreach process for software service companies. This tool leverages Llama 3.1 for fast and relevant email generation based on job postings scraped from the web. It integrates portfolio matching, semantic search, and web scraping into a Streamlit-powered interface.\n\n---\n\n## \ud83d\udccc Key Features\n\n- **Automated Email Generation**  \n  Creates personalized cold emails based on scraped job descriptions and matched portfolio skills.\n\n- **Web Scraping for Job Posts**  \n  Extracts job role, required skills, and description from job posting URLs using a custom web loader.\n\n- **Portfolio Matching**  \n  Parses your portfolio CSV to dynamically reference matching skills and experience in the emails.\n\n- **Prompt Engineering with LLM Chains**  \n  Uses structured prompt templates to extract key details and generate email content with Llama 3.1.\n\n- **Vector Store Integration (ChromaDB)**  \n  Stores jo"
+  },
+  {
+    "name": "contentforgeAi",
+    "description": null,
+    "url": "https://github.com/rkpothamsetti/contentforgeAi",
+    "languages": [
+      "JavaScript",
+      "Python",
+      "CSS",
+      "HTML"
+    ],
+    "readme": "# \ud83d\ude80 ContentForge AI\n\n> **Multi-Agent Enterprise Content Operations Platform**\n> Built for the **ET \u00d7 Avataar Hackathon** \u2014 Problem Statement 1\n\n[![Python](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python&logoColor=white)](https://python.org)\n[![FastAPI](https://img.shields.io/badge/FastAPI-0.115-009688?logo=fastapi)](https://fastapi.tiangolo.com)\n[![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black)](https://react.dev)\n[![Groq](https://img.shields.io/badge/Groq-LLaMA_3.3-F55036?logo=meta&logoColor=white)](https://console.groq.com)\n\n---\n\n## \ud83d\udccb Problem Statement\n\nEnterprise content teams spend **14+ hours per piece** creating, reviewing, localizing, and distributing content across channels. Manual handoffs, inconsistent compliance, and siloed workflows cause delays, errors, and missed opportunities.\n\n**ContentForge AI** automates the entire content lifecycle using **5 specialized AI agents** orchestrated in a sequential pipeline with **human-in-the"
+  },
+  {
+    "name": "EchoSign-Real-Time-Hand-Sign-Interpreter",
+    "description": "sign language detection using mediapipe and opencv",
+    "url": "https://github.com/rkpothamsetti/EchoSign-Real-Time-Hand-Sign-Interpreter",
+    "languages": [
+      "Python"
+    ],
+    "readme": "# \ud83e\udd1f EchoSign \u2013 Real-Time Hand Sign Interpreter\n\nA real-time Sign Language recognition system that converts hand gestures (ASL or Mexican Sign Language) into speech using a trained deep learning model and OpenCV. This project empowers inclusive communication by recognizing hand signs and synthesizing them into spoken words.\n\n---\n\n## \ud83d\udcf8 Demo Video\n<https://drive.google.com/file/d/1bxKiKghhI2f9RJ261TaTe5aj7_XdAdcJ/view?usp=sharing>\n\n\n---\n\n## \ud83d\uddc2\ufe0f Folder Structure\n\n```\n.\n\u251c\u2500\u2500 model/\n\u2502   \u251c\u2500\u2500 keras_model.h5          # Trained hand sign classification model\n\u2502   \u2514\u2500\u2500 labels.txt              # Corresponding labels for the model\n\u251c\u2500\u2500 Mexican_SL.png              # Reference image for Mexican Sign Language\n\u251c\u2500\u2500 dataCollection.py           # Script to collect hand gesture data\n\u251c\u2500\u2500 voice.py                    # Handles text-to-speech synthesis\n\u251c\u2500\u2500 wordbuilding.py             # Main script to build and speak words from gestures\n\u251c\u2500\u2500 test.py                     # Optional: used for testing purposes\n\u251c\u2500\u2500 requir"
+  },
+  {
+    "name": "expiredatedetection",
+    "description": null,
+    "url": "https://github.com/rkpothamsetti/expiredatedetection",
+    "languages": [
+      "Python",
+      "HTML"
+    ],
+    "readme": "# Expiry Date & Object Detection App\n\nA Flask-based web application that combines real-time object detection using YOLOv8 with automated text and date extraction from images using the OCR.space API.\n\n## Features\n\n- **Live Object Detection**: Streams a real-time webcam feed and uses YOLOv8 to detect and highlight specific classes of objects (e.g., bottles, cell phones, books, and vases) with bounding boxes and live count overlays.\n- **Date Extraction (OCR)**: Uploads product packaging/label images, extracts text via the OCR.space API, and parses dates using regex and datetime validation heuristics to distinguish between Manufacturing and Expiry dates.\n\n---\n\n## Project Structure\n\n```text\nexpire_date_detection/\n\u251c\u2500\u2500 app.py                  # Core Flask backend containing routes, OCR, and date-parsing logic\n\u251c\u2500\u2500 templates/\n\u2502   \u2514\u2500\u2500 index.html          # Web UI styled with Bootstrap 5 and interactive jQuery scripts\n\u251c\u2500\u2500 yolov8x.pt              # Pre-trained YOLOv8x model weights\n\u251c\u2500\u2500 uploads/   "
+  },
+  {
+    "name": "flipkart_grid_lock",
+    "description": null,
+    "url": "https://github.com/rkpothamsetti/flipkart_grid_lock",
+    "languages": [
+      "Jupyter Notebook",
+      "Python"
+    ],
+    "readme": ""
+  },
+  {
+    "name": "flipkart_grid_lock_phase2",
+    "description": null,
+    "url": "https://github.com/rkpothamsetti/flipkart_grid_lock_phase2",
+    "languages": [
+      "Python",
+      "PowerShell",
+      "CSS",
+      "Shell",
+      "HTML",
+      "JavaScript"
+    ],
+    "readme": "# TrafficVision AI - Enforcement Platform\n\nTrafficVision AI is a high-fidelity simulated traffic enforcement platform designed to detect, track, and record traffic violations in real-time. The system processes traffic camera feeds, applies enhancement techniques for low-light/noisy conditions, detects vehicles and road users, evaluates local traffic rules (helmet compliance, stop line boundaries, wrong-side driving, triple riding, etc.), extracts license plates using OCR, and stores logs and repeat offender data in a centralized database with a premium frontend dashboard for operators.\n\n---\n\n## \ud83d\ude80 Key Features\n\n*   **Adaptive Image Quality Check & Restoration**: Simulates **Zero-DCE** (low-light correction) and **Restormer** (denoising/deblurring) algorithms.\n*   **Object Detection & Tracking**: Simulates **YOLOv11** (vehicle, pedestrian, rider detection) and **ByteTrack** (vehicle identity tracking and movement trajectory).\n*   **Logical Rule Engine**: Flags critical traffic violations"
+  },
+  {
+    "name": "heartdiesese_data",
+    "description": null,
+    "url": "https://github.com/rkpothamsetti/heartdiesese_data",
+    "languages": [
+      "Jupyter Notebook"
+    ],
+    "readme": "# heartdiesese_data\n====================================================================================\nREADME - Decision Trees and Random Forests with Heart Disease Dataset\n====================================================================================\n\n\ud83d\udccc PROJECT TITLE:\nTask 5 - Decision Trees and Random Forests (Heart Disease Prediction)\n\n\ud83d\udcc1 PROJECT OBJECTIVE:\n------------------------------------------------------------------------------------\nThis project demonstrates the following:\n1. Training a Decision Tree Classifier and visualizing the tree.\n2. Analyzing overfitting and controlling tree depth.\n3. Training a Random Forest Classifier and comparing its performance.\n4. Interpreting feature importances in the model.\n5. Evaluating model performance using cross-validation.\n6. Understanding theory and interview questions on Decision Trees and Random Forests.\n\n====================================================================================\n\ud83d\udcc2 FILE STRUCTURE:\n--------------------"
+  },
+  {
+    "name": "house_price_prediction",
+    "description": "prediction house prices in the city of melbourne USA",
+    "url": "https://github.com/rkpothamsetti/house_price_prediction",
+    "languages": [],
+    "readme": ""
+  },
+  {
+    "name": "irisdata",
+    "description": null,
+    "url": "https://github.com/rkpothamsetti/irisdata",
+    "languages": [
+      "Jupyter Notebook"
+    ],
+    "readme": "====================================================================================\nREADME - K-Nearest Neighbors (KNN) Classification with Iris Dataset\n====================================================================================\n\n\ud83d\udccc PROJECT TITLE:\nTask 6 - KNN Classification Using Iris Dataset\n\n\ud83d\udcc1 OBJECTIVE:\n------------------------------------------------------------------------------------\n1. Normalize features for distance-based classification.\n2. Train a KNN model using sklearn.\n3. Evaluate different values of K.\n4. Assess model using accuracy and confusion matrix.\n5. Visualize decision boundaries for 2D feature space.\n6. Understand and answer theoretical interview questions.\n\n====================================================================================\n\ud83d\udce6 REQUIREMENTS:\n------------------------------------------------------------------------------------\n- Python 3.x\n- scikit-learn\n- numpy\n- matplotlib\n- seaborn (optional)\n\nInstall dependencies:\n>> pip install scikit-le"
+  },
+  {
+    "name": "IrresponsiblePeachpuffMethod",
+    "description": null,
+    "url": "https://github.com/rkpothamsetti/IrresponsiblePeachpuffMethod",
+    "languages": [
+      "HTML",
+      "Python"
+    ],
+    "readme": "# \ud83d\udcbc  my first careers page\n\nA simple Flask-based web application that displays available job postings and provides an API endpoint to access job data in JSON format. Hosted using [Replit](https://replit.com).\n\n---\n\n## \ud83d\udd27 Tech Stack\n\n- **Backend**: Python, Flask\n- **Frontend**: HTML (Jinja2 templating)\n- **Deployment**: Replit\n- **Project Management**: Poetry\n\n---\n\n## \ud83d\udcc1 Project Structure\n\n```\n\n\u251c\u2500\u2500 templates/\n\u2502   \u251c\u2500\u2500 home.html           # Main landing page\n\u2502   \u2514\u2500\u2500 jobitem.html        # Job detail component (if used)\n\u2502\n\u251c\u2500\u2500 app.py                  # Flask app with routes\n\u251c\u2500\u2500 requirements.txt        # List of Python dependencies\n\u251c\u2500\u2500 pyproject.toml          # Poetry project file\n\u251c\u2500\u2500 poetry.lock             # Lock file for dependency versions\n\u251c\u2500\u2500 .gitignore\n\u2514\u2500\u2500 .replit                 # Replit config file\n\n````\n\n---\n\n## \ud83c\udf10 Features\n\n- Homepage (`/`) displays a list of job openings\n- JSON API endpoint at `/api/jobs` for accessing job data\n- Templating done using Flask\u2019s built-in Jinja2\n- Data dy"
+  },
+  {
+    "name": "magicpinai_bot",
+    "description": null,
+    "url": "https://github.com/rkpothamsetti/magicpinai_bot",
+    "languages": [
+      "Python"
+    ],
+    "readme": ""
+  },
+  {
+    "name": "Nigha-AI",
+    "description": null,
+    "url": "https://github.com/rkpothamsetti/Nigha-AI",
+    "languages": [
+      "Python",
+      "JavaScript",
+      "CSS",
+      "HTML",
+      "Dockerfile",
+      "PowerShell",
+      "Batchfile"
+    ],
+    "readme": "# Nigha AI\n\nPer-vehicle traffic enforcement for Indian cities. Upload traffic media, detect violations per vehicle (`VEH-001`, \u2026), read Indian plates, and send explainable evidence to an officer review queue.\n\n**Violations:** no helmet \u00b7 triple riding \u00b7 wrong-side \u00b7 no seatbelt \u00b7 illegal parking \u00b7 stop line \u00b7 red light\n\n---\n\n## Setup\n\n**You need:** Python 3.10+, Node.js 18+, ~2 GB RAM\n\n### 1. Clone & install\n\n```bash\ngit clone https://github.com/rkpothamsetti/prototype_2.git\ncd prototype_2\npython -m venv .venv\n```\n\n**Windows**\n```powershell\n.\\.venv\\Scripts\\Activate.ps1\npip install -r requirements.txt\n```\n\n**macOS / Linux**\n```bash\nsource .venv/bin/activate\npip install -r requirements.txt\n```\n\n### 2. Run backend (terminal 1)\n\n```bash\npython run_server.py\n```\n\nWait for http://localhost:8001/health \u2192 `\"models_ready\": true` (1\u20133 min on first run).\n\n### 3. Run frontend (terminal 2)\n\n```bash\ncd frontend\nnpm install\nnpm run dev\n```\n\nOpen **http://localhost:5173**\n\n**Windows shortcut:** double"
+  },
+  {
+    "name": "pdf_rag",
+    "description": null,
+    "url": "https://github.com/rkpothamsetti/pdf_rag",
+    "languages": [
+      "Jupyter Notebook",
+      "Python",
+      "HTML",
+      "CSS",
+      "Dockerfile"
+    ],
+    "readme": "# Medibot"
+  },
+  {
+    "name": "price_prediction",
+    "description": "prediction of hose prices of melbourne city usa",
+    "url": "https://github.com/rkpothamsetti/price_prediction",
+    "languages": [
+      "Jupyter Notebook"
+    ],
+    "readme": ""
+  },
+  {
+    "name": "promptwars",
+    "description": null,
+    "url": "https://github.com/rkpothamsetti/promptwars",
+    "languages": [
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ],
+    "readme": "# SmartStadium OS - Cricket World Cup Edition 2026\n\n**SmartStadium OS** is an AI-powered operating system for large-scale sporting venues. It transforms the chaotic stadium experience into a seamless, predictive, and personalized journey for fans, families, and ground staff.\n\n## \ud83c\udfcf Vertical\nThe solution is specialized for **Cricket Stadiums**, addressing unique challenges like high-density innings breaks, squad coordination in vast stands, and diverse attendee needs (die-hard fans vs. families).\n\n## \ud83d\ude80 The Approach\nOur approach centers on a **Tri-Layer Intelligence Model**:\n1. **Predictive Analytics**: A real-time simulation engine that models crowd density and queue lengths to \"load balance\" the stadium.\n2. **Contextual Persona AI**: A Gemini-powered concierge that adapts advice based on the user's role (Fan, Family, or Staff).\n3. **Social Coordination**: \"Squad Sync\" logic that enables groups to find meeting points based on live crowd data.\n\n## \u2699\ufe0f How It Works\n- **Dynamic Routing**: Th"
+  },
+  {
+    "name": "PropVision-Price-Insight-Engine",
+    "description": null,
+    "url": "https://github.com/rkpothamsetti/PropVision-Price-Insight-Engine",
+    "languages": [
+      "Jupyter Notebook",
+      "CSS",
+      "Python",
+      "JavaScript",
+      "HTML"
+    ],
+    "readme": "# \ud83c\udfe0 PropVision \u2013 Price Insight Engine\n\nA full-stack web application that predicts housing prices in Bangalore using a machine learning regression model. The project includes data preprocessing, model training, REST API development with Flask, and a clean, responsive frontend using HTML, CSS, and JavaScript.\n\n---\n\n## \ud83d\udd27 Tech Stack\n\n- **Frontend**: HTML, CSS, JavaScript\n- **Backend**: Python, Flask\n- **Machine Learning**: Scikit-learn, Pandas, NumPy\n- **Model Serialization**: Pickle\n- **Others**: Nginx (optional), Jupyter Notebook\n\n---\n\n## \ud83d\udcc1 Project Structure\n\n```\n\n\u251c\u2500\u2500 artifacts/                   # Stored model and column metadata\n\u2502   \u251c\u2500\u2500 columns.json\n\u2502   \u2514\u2500\u2500 model.pickle\n\u2502\n\u251c\u2500\u2500 client/                      # Frontend files\n\u2502   \u251c\u2500\u2500 app.html\n\u2502   \u251c\u2500\u2500 app.css\n\u2502   \u2514\u2500\u2500 app.js\n\u2502\n\u251c\u2500\u2500 model/                       # Jupyter notebook and raw data\n\u2502   \u251c\u2500\u2500 banglore\\_home\\_prices\\_final.ipynb\n\u2502   \u2514\u2500\u2500 bengaluru\\_house\\_prices.csv\n\u2502\n\u251c\u2500\u2500 nginx\\_files/                 # Optional Nginx config files\n\u2502\n\u251c\u2500\u2500 s"
+  },
+  {
+    "name": "pulserankai",
+    "description": null,
+    "url": "https://github.com/rkpothamsetti/pulserankai",
+    "languages": [
+      "TypeScript",
+      "JavaScript",
+      "Python",
+      "CSS"
+    ],
+    "readme": "# PulseRank AI \u2014 Cognitive Hiring Platform\n\nPulseRank AI is an AI-powered Cognitive Hiring Intelligence Platform that moves beyond basic keyword filtering to understand jobs like an experienced recruiter, evaluate candidates like a hiring manager, and deliver an explainable, ranked shortlist.\n\nInstead of asking *\"Does this candidate contain the right keywords?\"*, PulseRank asks: *\"Would an experienced recruiter shortlist this candidate for this role, and why?\"*\n\n---\n\n## \ud83d\ude80 Key Innovations\n\n### 1. Recruiter Reasoning Tournament (ELO-Based Ranking)\nMost applicant tracking systems score candidates in isolation. PulseRank implements a **round-robin pairwise tournament engine**. The algorithm matches candidates head-to-head for a specific job description, comparing multi-dimensional signals (e.g. weighing leadership scope vs technical depth for senior roles), and calculates stable final ranks using **ELO rating updates**.\n\n### 2. Requirement Knowledge Graph & Transferable Skills\nJob requirem"
+  },
+  {
+    "name": "rkpothamsetti",
+    "description": null,
+    "url": "https://github.com/rkpothamsetti/rkpothamsetti",
+    "languages": [],
+    "readme": "<h1 align=\"center\">Hi \ud83d\udc4b, I'm Pothamsetti Radha Krishna</h1>\n<h3 align=\"center\">An aspiring AI Engineer and Developer from India </h3>\n<p align=\"center\">\n  <img src=\"./pngtree-a-cartoon-boy-wearing-glasses-and-hoodie-is-coding-on-his-image_16934756.jpg\" alt=\"coding-boy\" width=\"600\"/>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://www.linkedin.com/in/radha-krishna-pothamsetti-435649308/\">\n    <img src=\"https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&style=for-the-badge\" />\n  </a>\n</p>\n\n<p align=\"center\">\n  <img src=\"https://komarev.com/ghpvc/?username=rkpothamsetti&label=Profile%20views&color=0e75b6&style=flat\" alt=\"Profile views\" />\n</p>\n\n\n\n### \ud83e\uddd1\u200d\ud83c\udf93 About Me\n\n- \ud83c\udf93 B.Tech in Electrical Engineering at **NIT Durgapur** (2023\u20132027)\n- \ud83d\udd2d I\u2019m currently working on **Gen AI projects, Computer Vision, and ML applications**\n- \ud83c\udf31 Currently exploring **LangChain, ChromaDB, RAG pipelines & NLP**\n- \ud83d\udcac Ask me about **Machine Learning, Gen AI, OpenCV, LangChain, Streamlit**\n- \ud83d\udceb Reach me at **radhapoth"
+  },
+  {
+    "name": "rkpothamsetti_portfolio_",
+    "description": null,
+    "url": "https://github.com/rkpothamsetti/rkpothamsetti_portfolio_",
+    "languages": [
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ],
+    "readme": ""
+  },
+  {
+    "name": "SAMAYA-AI",
+    "description": null,
+    "url": "https://github.com/rkpothamsetti/SAMAYA-AI",
+    "languages": [
+      "TypeScript",
+      "CSS",
+      "JavaScript",
+      "Dockerfile",
+      "HTML"
+    ],
+    "readme": "# \u26a1 SAMAYA AI\n\n> AI-powered proactive task manager \u2014 prevents deadline failures before they happen.\n\n## Stack\n- **AI:** Google Gemini 2.0 Flash (all reasoning)\n- **STT:** Google Cloud Speech-to-Text v2\n- **TTS:** Google Cloud Text-to-Speech (Journey-F)\n- **Calendar:** Google Calendar API v3\n- **Backend:** Node.js + Express + TypeScript + SQLite\n- **Frontend:** React 18 + Vite + Tailwind + Framer Motion\n\n## Quick Start\n\n### 1. Configure backend\n```bash\ncd backend\ncp .env.example .env\n# Fill in your API keys (see .env.example)\nnpm install\n```\n\n### 2. Configure frontend\n```bash\ncd frontend\nnpm install\n```\n\n### 3. Run both\n```bash\n# Terminal 1 \u2014 backend\ncd backend\nnpm run dev\n\n# Terminal 2 \u2014 frontend\ncd frontend\nnpm run dev\n```\n\nOpen **http://localhost:5173**\n\n## API Keys Needed\n| Key | Where to get |\n|-----|-------------|\n| `GOOGLE_AI_API_KEY` | [Google AI Studio](https://aistudio.google.com/app/apikey) |\n| `GOOGLE_CLOUD_KEY_FILE` | Google Cloud Console \u2192 IAM \u2192 Service Accounts |\n| `GOOGL"
+  },
+  {
+    "name": "Titanic_dataset_prediction",
+    "description": null,
+    "url": "https://github.com/rkpothamsetti/Titanic_dataset_prediction",
+    "languages": [
+      "Jupyter Notebook"
+    ],
+    "readme": "The Titanic Dataset from kaggle has been preprocessed\n1.Import the dataset and explore basic info (nulls, data types).\n2.Handling missing values using mean/median/imputation.\n3.Converting the  categorical features into numerical using encoding.\n5.Visualizing the outliers using boxplots and removing them.\nusing the hyperparameter tuning and randomforest classifier working to get more accuracy\n"
+  },
+  {
+    "name": "TruthLens",
+    "description": null,
+    "url": "https://github.com/rkpothamsetti/TruthLens",
+    "languages": [
+      "Jupyter Notebook"
+    ],
+    "readme": "# Fake News Detection Project\n\nThe project aims to develop a machine-learning model capable of identifying and classifying any news article as fake or not. The distribution of fake news can potentially have highly adverse effects on people and culture. This project involves building and training a model to classify news as fake news or not using a diverse dataset of news articles. We have used four techniques to determine the results of the model.\n\n1. **Logistic Regression**\n2. **Decision Tree Classifier**\n3. **Gradient Boost Classifier**\n4. **Random Forest Classifier**\n\n## Project Overview\n\nFake news has become a significant issue in today's digital age, where information spreads rapidly through various online platforms. This project leverages machine learning algorithms to automatically determine the authenticity of news articles, providing a valuable tool to combat misinformation.\n\n## Dataset\n\nWe have used a labelled dataset containing news articles along with their corresponding la"
+  }
+]

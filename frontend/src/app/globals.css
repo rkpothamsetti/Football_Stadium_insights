@@ -1,0 +1,120 @@
+@import "tailwindcss";
+
+:root {
+  /* MD3 Light Palette */
+  --md-primary: #2b579a;
+  --md-on-primary: #ffffff;
+  --md-primary-container: #dbe2f9;
+  --md-on-primary-container: #00153f;
+  
+  --md-secondary: #008080;
+  --md-on-secondary: #ffffff;
+  --md-secondary-container: #b2dfdb;
+  --md-on-secondary-container: #002020;
+  
+  --md-background: #f8fafc;
+  --md-on-background: #0f172a;
+  
+  --md-surface: #ffffff;
+  --md-on-surface: #0f172a;
+  --md-surface-variant: #e2e8f0;
+  --md-on-surface-variant: #475569;
+  
+  --md-error: #ef4444;
+  --md-on-error: #ffffff;
+  
+  --md-outline: #94a3b8;
+  --radius-md3: 16px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* MD3 Premium Dark Palette */
+    --md-primary: #9bb7f6;
+    --md-on-primary: #002868;
+    --md-primary-container: #1b3f7f;
+    --md-on-primary-container: #dbe2f9;
+    
+    --md-secondary: #4db6ac;
+    --md-on-secondary: #00332e;
+    --md-secondary-container: #004d40;
+    --md-on-secondary-container: #b2dfdb;
+    
+    --md-background: #090c10;
+    --md-on-background: #e2e8f0;
+    
+    --md-surface: #0d1117;
+    --md-on-surface: #f0f6fc;
+    --md-surface-variant: #21262d;
+    --md-on-surface-variant: #8b949e;
+    
+    --md-error: #f85149;
+    --md-on-error: #660000;
+    
+    --md-outline: #30363d;
+  }
+}
+
+@theme {
+  --color-primary: var(--md-primary);
+  --color-on-primary: var(--md-on-primary);
+  --color-primary-container: var(--md-primary-container);
+  --color-on-primary-container: var(--md-on-primary-container);
+  
+  --color-secondary: var(--md-secondary);
+  --color-on-secondary: var(--md-on-secondary);
+  --color-secondary-container: var(--md-secondary-container);
+  --color-on-secondary-container: var(--md-on-secondary-container);
+  
+  --color-stadium-bg: var(--md-background);
+  --color-stadium-on-bg: var(--md-on-background);
+  
+  --color-stadium-surface: var(--md-surface);
+  --color-stadium-on-surface: var(--md-on-surface);
+  --color-stadium-surface-var: var(--md-surface-variant);
+  --color-stadium-on-surface-var: var(--md-on-surface-variant);
+  
+  --color-stadium-error: var(--md-error);
+  --color-stadium-on-error: var(--md-on-error);
+  --color-stadium-outline: var(--md-outline);
+}
+
+body {
+  background: var(--md-background);
+  color: var(--md-on-background);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+/* Glassmorphism utility classes */
+.glass-panel {
+  background: rgba(13, 17, 23, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+@media (prefers-color-scheme: light) {
+  .glass-panel {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+  }
+}
+
+/* Custom Scrollbar for premium feel */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--md-outline);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--md-primary);
+}

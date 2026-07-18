@@ -1,0 +1,14 @@
+node_modules/
+.env
+.env.*
+*.env
+*.json
+!package.json
+!package-lock.json
+!tsconfig.json
+!vercel.json
+!repos_info.json
+__pycache__/
+*.pyc
+.pytest_cache/
+promptwars-66952-firebase-adminsdk-fbsvc-18c3a7b141.json
