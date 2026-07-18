@@ -8,7 +8,15 @@ class Settings(BaseSettings):
     API_V1_STR: str = "/api/v1"
     
     # Security and CORS
-    CORS_ORIGINS: List[str] = ["http://localhost:3000", "http://127.0.0.1:3000"]
+    CORS_ORIGINS: List[str] = ["http://localhost:3000", "http://127.0.0.1:3000", "https://frontend-kixg6fp8j-pothamsetti-radha-krishnas-projects.vercel.app"]
+    
+    @field_validator("CORS_ORIGINS", mode="before")
+    def assemble_cors_origins(cls, v: Union[str, List[str]]) -> Union[List[str], str]:
+        if isinstance(v, str) and not v.startswith("["):
+            return [i.strip() for i in v.split(",")]
+        elif isinstance(v, (list, str)):
+            return v
+        raise ValueError(v)
     
     # Google Gemini Config
     GEMINI_API_KEY: str = ""
